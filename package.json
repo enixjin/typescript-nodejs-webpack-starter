@@ -1,0 +1,35 @@
+{
+  "name": "myLib",
+  "version": "1.0.0",
+  "description": "a node lib starter with typescript and webpack",
+  "main": "dist/myLib.min.js",
+  "typings": "./src/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enixjin/typescript-nodejs-webpack-starter.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "webpack",
+    "starter"
+  ],
+  "author": "enixjin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enixjin/typescript-nodejs-webpack-starter/issues"
+  },
+  "homepage": "https://github.com/enixjin/typescript-nodejs-webpack-starter#readme",
+  "devDependencies": {
+    "@types/node": "^7.0.8",
+    "awesome-typescript-loader": "^3.1.2",
+    "source-map-loader": "^0.2.0",
+    "typescript": "^2.2.1",
+    "webpack": "^2.2.1",
+    "webpack-node-externals": "^1.5.4"
+  }
+}

@@ -8,5 +8,6 @@ To use:
 In other typescript project folder:
   npm link /path/to/this/lib
 In other typescript project code:
-  import {exampleClass} from "myLib";
-  let example:exampleClass = new exampleClass();
+  import {exampleClass,tools} from "myLib";
+  let example:exampleClass = new exampleClass();//it works!
+  let plusResult = tools.plus(2,3);//5
